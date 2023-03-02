@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(210, 255, 192);
+}/*Agregar color a todo el fondo de la pagina*/
+
+#titulo{
+    color: rgb(247, 0, 255);
+} /*Agregar color puntual al titulo pero agregando el id en la linea 28*/
+#parrafo1{
+    color: rgb(17, 0, 255);
+}
+.negro{
+  background: white;
+  color :black
+}/*Agregar color de fondo a un parrafo agregrando una clase linea 31*/
+p{
+  border: 1px solid red; /*Agregar borde a los parrafos*/
+}
+.rojo {
+  background: salmon;
+}
+.verde{
+  background: green;
+}
+.boton{
+  display: block;/*Para poner los botones de forma vertical*/
+}
+#Subtitulo{/*Para ocultar botones*/
+  display: none;
+  background: pink;
+}

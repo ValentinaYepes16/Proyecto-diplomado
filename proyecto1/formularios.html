@@ -1,0 +1,98 @@
+<!-- conectar CSS(FORMA 1 --- mejor forma para tener las buenas etiquetas desde el CSS)-->
+<link rel="stylesheet" type="text/css" href ="css/main.css" /> 
+
+<!-- FORMA 2 DIRECTO DESDE EL HTML
+<style type="text/css">
+  body{background-color: pink;}
+  #titulo{color: aqua;}
+
+</style>
+--->
+<fieldset>
+    <legend>Formulario registro</legend>
+  <form action="">
+    <label for="nombre">
+      Nombre
+    <input type="text" placeholder="Ingresa tu nombre" id="nombre">
+    </label>
+     <br><!--Salto de linea-->
+    <label for="apellido">
+      Apellido
+      <input type="text" placeholder="Ingresa tu apellido" id="apellido">
+    </label>
+    <br>
+    <label for="departamento">
+      Departamento
+      <select name="" id="departamento">
+        <option value="-1">Selecciona tu departamento</option>
+        <option value="1">Antioquia</option>
+      </select>
+    </label><br>
+    <!--
+    <label for="hobbies"></label>
+    Hobbie
+    <select name="hobbies" id="hobbies">
+        <option value="-1">Selecciona tu hobbie</option>
+        <option value="1">Leer</option>
+        <option value="2">Dormir</option>
+        <option value="3">Dibujar</option>
+        <option value="4">Ver peliculas</option>
+        <option value="5">Nadar</option>
+        <option value="6">Bailar</option>
+        <option value="7">Ir al gimnasio</option>
+    </select>-->
+<!--Radio seleccion de bolita(se utilizan cuando tenemos una unica respuesta)-->
+    <h2>Selecciona un hobby</h2>
+    <label for="dibujar">
+      <input type="radio" id="dibujar" name="hobby">Dibujar
+    </label>
+    <br>
+     <label for="bailar">
+      <input type="radio" id="bailar" name="hobby" checked>Bailar <!--Checked sirve para que por defecto comience selccionando esta opcion-->
+    </label>
+    <br>
+     <label for="deporte">
+      <input type="radio" id="deporte" name="hobby">Deporte
+    </label>
+    <br>
+    <label for="cantar">
+      <input type="radio" id="cantar" name="hobby">Cantar
+    </label>
+    <br><br>
+    <!--Radio seleccion de caja(se utilizan cuando tenemos varias respuestas)-->
+    <h2>¿Qué te gusta hacer el fin de semana?</h2>
+    <label for="cine">
+      <input type="checkbox" id="cine"> Ir a cine
+    </label>
+    <br>
+    <label for="rumba">
+      <input type="checkbox" id="rumba"> Ir a la discoteca
+    </label>
+    <br>
+    <label for="gimnasio">
+      <input type="checkbox" id="gimnasio"> Ir al gimnasio
+    </label>
+    <br><br>
+    <label for="fecha">Ingrese fecha nacimiento
+      <input type="date" id="fecha"
+             value="now"
+             min="1940-01-01" max="2000-12-31">
+    </label>
+    <br><br>
+    <label for="clave1">
+      <input type="password" id="clave1" placeholder="Ingrese la clave">
+    </label><br>
+    <label for="clave2">
+      <input type="password" id="clave2" placeholder="Confirme la clave">
+    </label><br><br>
+    <br><br>
+    <h2>¿Cómo te sientes hoy?</h2>
+    <p>
+      Crear un campo para actualizar el valor del texto, según el valor del rango
+    </p>
+    <input type="text" id="volumen">
+    <input type="range" id="calificacion" min="0" max="1" step="0.1" />
+    <br><br>
+<button>Enviar</button>
+</form>
+</fieldset>
