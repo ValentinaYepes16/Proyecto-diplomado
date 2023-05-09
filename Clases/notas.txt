@@ -1,0 +1,4 @@
+de negocio para pasarela de pagos , asesor banco
+dominio :legal
+backend firest google cloud
+fullstack : java solamente, python, angular,

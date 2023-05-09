@@ -1,0 +1,40 @@
+CSS
+div{
+background-color:#FFD100;
+display: grid ;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 20px ;
+grid-row-gap: 10px ;
+width : 300px;
+height : 300px;
+border-radius:8px;
+margin-left: auto;
+margin-right: auto;
+padding : 1em;
+}
+.item-1 {
+  background: #000;
+  width : 88px;
+  height : 88px;
+  border-radius:8px;
+}
+
+.item-1 {
+  border: 15px solid #FFD100;
+}
+
+
+HTML
+<div>
+  <img class = "item-1" src="https://icones.pro/wp-content/uploads/2021/04/icone-cercle-bleu.png" alt="">      </img>
+  <img class = "item-1" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/72/Actions-edit-delete-icon.png" alt="">      </img>
+<img class = "item-1" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/72/Actions-edit-delete-icon.png" alt="">      </img>
+<img class = "item-1" src="https://icones.pro/wp-content/uploads/2021/04/icone-cercle-bleu.png" alt="">      </img>
+<img class = "item-1" > </img>
+<img class = "item-1" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/72/Actions-edit-delete-icon.png" alt="">      </img>
+<img class = "item-1" src="https://icones.pro/wp-content/uploads/2021/04/icone-cercle-bleu.png" alt="">      </img>
+<img class = "item-1" src="https://icones.pro/wp-content/uploads/2021/04/icone-cercle-bleu.png" alt="">      </img>
+<img class = "item-1" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/72/Actions-edit-delete-icon.png" alt="">      </img>
+
+</div>

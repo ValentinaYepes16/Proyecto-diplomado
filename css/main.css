@@ -1,30 +1,41 @@
 body{
+    /*background:#00f;*/
     background-color: rgb(210, 255, 192);
 }/*Agregar color a todo el fondo de la pagina*/
 
 #titulo{
     color: rgb(247, 0, 255);
-} /*Agregar color puntual al titulo pero agregando el id en la linea 28*/
+} /*Agregar color puntual al titulo pero agregando el id en la linea 28 del HTML*/
 #parrafo1{
     color: rgb(17, 0, 255);
 }
 .negro{
   background: white;
   color :black
-}/*Agregar color de fondo a un parrafo agregrando una clase linea 31*/
+}/*Agregar color de fondo a un parrafo agregrando una clase linea 31 del HTML*/
 p{
-  border: 1px solid red; /*Agregar borde a los parrafos*/
+  border: 1px solid rgb(217, 255, 0); /*Agregar borde a los parrafos*/
 }
 .rojo {
   background: salmon;
+  width : 30px;
+  height : 30px;
 }
 .verde{
   background: green;
+  width : 30px;
+  height : 30px;
 }
 .boton{
-  display: block;/*Para poner los botones de forma vertical*/
+  display:block;
+  flex-direction:row;
+  /*display: block;/*Para poner los botones de forma vertical*/
 }
 #Subtitulo{/*Para ocultar botones*/
   display: none;
-  background: pink;
+  background: rgb(255, 192, 203);
+}
+#contenedor{
+  display : flex
+  
 }

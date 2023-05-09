@@ -1,0 +1,32 @@
+let btn_saludar; 
+
+window.onload = function(){ 
+ btn_saludar = document.getElementById("btn_saludar");
+ btn_saludar.addEventListener("click",procesarClick);
+}
+
+function procesarClick(event){
+  alert("Hola mundo");
+}
+
+let a,b,c,x,y,z,f;// Declarar variable
+x=5; // Inicializacion
+x=8; // Reasignacion
+//let x ; // redeclaracion, error no se permite
+//alert(x);
+
+// Ejemplo
+x=2;
+y=8;
+z = x+y;
+//alert(z);
+
+// ejercicio 2 calcular el promedio de 6 variables
+x=4;
+y=5;
+z=6;
+a=1;
+b=2;
+c=3;
+f= (a+b+c+x+y+z)/(6)
+alert("El resultado es " + f)
